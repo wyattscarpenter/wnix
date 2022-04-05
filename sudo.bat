@@ -1,1 +1,1 @@
-runas /savecred /user:%username% %*
+runas /savecred /user:%username% "cmd /k cd \"%cd%\" & %*"
